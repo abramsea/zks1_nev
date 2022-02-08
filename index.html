@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style-fa8fbcd9.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="shortcut icon" href="./images/icons/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<title>ЖКС №1 Невского района</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header-mobile">
+			<a class="header-mobile__logo" href="#">
+				<img alt="ZKS1-nev logo" src="./images/logo/logo.png">
+			</a>
+			<button class="header-mobile__burger" type="button">
+				<span></span>
+			</button>
+		</div>
+		<div class="header__wrapper">
+			<div class="header-top">
+				<ul class="header__phones">
+					<li>
+						<p>Аварийно-диспетчерская <br> служба:</p>
+						<span>
+							<a href="tel:+78123088801">
+								308&#8209;88&#8209;01,&nbsp;
+							</a>
+							<a href="tel:+78123088802">
+								308&#8209;88&#8209;02
+							</a>
+						</span>
+					</li>
+					<li>
+						<p>Секретарь:</p>
+						<a href="tel:+78124470942">
+							447&#8209;09&#8209;42
+						</a>
+					</li>
+					<li>
+						<p>Информационно-диспетчерская <br> служба:</p>
+						<a href="tel:082">
+							082
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="header-bottom">
+				<div class="header-bottom__wrapper">
+					<a class="header__logo" href="#">
+						<img alt="ZKS1-nev logo" src="./images/logo/logo.png">
+					</a>
+					<ul class="header__menu">
+						<li>
+							<a class="active">
+								Главная
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								О&nbsp;компании
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Наша&nbsp;деятельность
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Услуги
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Собственникам
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Контакты
+							</a>
+						</li>
+					</ul>
+					<button class="header__search-btn" type="button"></button>
+					<ul class="header__social">
+						<li>
+							<a title="Мы ВКонтакте" class="vk" href="#">
+								
+							</a>
+						</li>
+						<li>
+							<a title="Написать на почту" class="email" href="#">
+								
+							</a>
+						</li>
+						<li>
+							<a title="Запись на прием" class="schedule" href="#">
+								
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		
+		<section class="main-banner">
+			<picture>
+				<source media="(max-width: 955px)" srcset="./images/volodarsky_956.jpg">
+				<img src="./images/volodarsky.jpg" alt="Володарский мост">
+			</picture>
+		</section>
+
+		<section class="main-info">
+			<div class="building-info">
+				<h2 class="building-info__title">
+					Информация по&nbsp;домам
+				</h2>
+				<p class="building-info__description">
+					Здесь вы можете узнать: год постройки дома, общую площадь, адреса и&nbsp;телефоны обслуживающих подразделений и&nbsp;бухгалтерий по&nbsp;квартплате для&nbsp;конкретного дома
+				</p>
+				<form>
+
+					<label for="buildingSelect">
+						Выберите Ваш дом:
+					</label>
+					<div class="select-wrapper">
+						<select name="buildingSelect">
+							<option>
+								Бабушкина&nbsp;ул.&nbsp;д.20
+							</option>
+							<option>
+								Джона Рида&nbsp;ул.,&nbsp;д.4&nbsp;корп.2
+							</option>
+							<option>
+								Крыленко&nbsp;ул.,&nbsp;д.5
+							</option>
+						</select>
+					</div>
+
+					<button type="button" class="button with-border">
+						Показать отчет
+					</button>
+				</form>
+				<div class="building-info__control-list">
+					<a href="#">
+						Список домов в управлении
+					</a>
+				</div>
+			</div>
+
+			<ul class="registration-cards">
+				<li class="card">
+					<a href="#">
+						<img src="./images/icons/mail_yellow.svg" alt="Интернет-приемная">
+						<h2 class="card__title">Интернет-приемная</h2>
+						<p class="card__description">
+							Оставьте обращение (предложение, жалобу, замечание или&nbsp;благодарность)
+						</p>
+					</a>
+				</li>
+				<li class="card">
+					<a href="#">
+						<img src="./images/icons/schedule.svg" alt="Запись на прием">
+						<h2 class="card__title">Запись на&nbsp;прием</h2>
+						<p class="card__description">
+							Запишитесь на&nbsp;прием к&nbsp;нашему сотруднику, заполнив форму на&nbsp;сайте
+						</p>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<section class="main-news">
+			<div class="news-block">
+				<h2 class="news-block__title">
+					Новости
+				</h2>
+				<ul class="tabs">
+					<li class="tab">
+						Объявления
+					</li>
+					<li class="tab">
+						Полезная информация
+					</li>
+					<li class="tab active">
+						Ремонт / Благоустройство / Уборка
+					</li>
+				</ul>
+
+				<ul class="news-previews">
+					<li class="news-preview">
+						<a href="#">
+							<time datetime="2021-11-07">
+								<span>07</span><span>ноября</span>
+							</time>
+							<div class="news-preview__body">
+								<h3 class="news-preview__title">
+									Комплексная уборка лестничной клетки по&nbsp;адресу: <br> пр.&nbsp;Елизарова, дом&nbsp;14, пар.&nbsp;№ 3
+								</h3>
+								<p class="news-preview__content">
+									- влажное подметание и&nbsp;мытье тамбуров, коридоров, лестничных площадок с&nbsp;дезинфицирующим средством; - влажная протирка подоконников, перил, почтовых ящиков, ручек и&nbsp;дверей
+								</p>
+							</div>
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M8.25358 1.31767C7.91547 1.74123 7.91547 2.4259 8.25358 2.84946L17.1544 14L8.25358 25.1505C7.91547 25.5741 7.91547 26.2588 8.25358 26.6823C8.59168 27.1059 9.13821 27.1059 9.47631 26.6823L18.9885 14.7659C19.1571 14.5546 19.2419 14.2773 19.2419 14C19.2419 13.7226 19.1571 13.4453 18.9885 13.2341L9.47631 1.31762C9.13821 0.894116 8.59168 0.894117 8.25358 1.31767Z" fill="#D1D0D0"/>
+							</svg>
+						</a>
+					</li>
+
+					<li class="news-preview">
+						<a href="#">
+							<time datetime="2021-11-06">
+								<span>06</span><span>ноября</span>
+							</time>
+							<div class="news-preview__body">
+								<h3 class="news-preview__title">
+									Обществом выполнены работы по&nbsp;очистке кровель по&nbsp;следующим адресам: <br> ул.&nbsp;Ольги Берггольц,&nbsp;дом 19.
+								</h3>
+								<p class="news-preview__content">
+									Комплексная уборка лестничной клетки по&nbsp;адресу: ул.&nbsp;Антонова-Овсеенко, д.&nbsp;5/2, пар.&nbsp;№ 3
+								</p>
+							</div>
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M8.25358 1.31767C7.91547 1.74123 7.91547 2.4259 8.25358 2.84946L17.1544 14L8.25358 25.1505C7.91547 25.5741 7.91547 26.2588 8.25358 26.6823C8.59168 27.1059 9.13821 27.1059 9.47631 26.6823L18.9885 14.7659C19.1571 14.5546 19.2419 14.2773 19.2419 14C19.2419 13.7226 19.1571 13.4453 18.9885 13.2341L9.47631 1.31762C9.13821 0.894116 8.59168 0.894117 8.25358 1.31767Z" fill="#D1D0D0"/>
+							</svg>
+						</a>
+					</li>
+
+					<li class="news-preview">
+						<a href="#">
+							<time datetime="2021-11-06">
+								<span>06</span><span>ноября</span>
+							</time>
+							<div class="news-preview__body">
+								<h3 class="news-preview__title">
+									Уборка подведомственных территорий
+								</h3>
+								<p class="news-preview__content">
+									Комплексная уборка территорий
+								</p>
+							</div>
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M8.25358 1.31767C7.91547 1.74123 7.91547 2.4259 8.25358 2.84946L17.1544 14L8.25358 25.1505C7.91547 25.5741 7.91547 26.2588 8.25358 26.6823C8.59168 27.1059 9.13821 27.1059 9.47631 26.6823L18.9885 14.7659C19.1571 14.5546 19.2419 14.2773 19.2419 14C19.2419 13.7226 19.1571 13.4453 18.9885 13.2341L9.47631 1.31762C9.13821 0.894116 8.59168 0.894117 8.25358 1.31767Z" fill="#D1D0D0"/>
+							</svg>
+						</a>
+					</li>
+				</ul>
+
+				<a href="#" class="button">
+					Все новости
+				</a>
+			</div>
+
+			<ul class="news-highlights">
+				<li class="card">
+					<a href="#">
+						<img src="./images/icons/propane.svg" alt="Осторожно газ!">
+						<h2 class="card__title">Осторожно газ!</h2>
+						<p class="card__description">
+							График обслуживания газового оборудования
+						</p>
+					</a>
+				</li>
+				<li class="card">
+					<a href="#">
+						<img src="./images/icons/shutdown.svg" alt="Отключения">
+						<h2 class="card__title">Отключения</h2>
+						<p class="card__description">
+							Отключение водоснабжения, отопления и&nbsp;электричества по&nbsp;адресам
+						</p>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<ul class="info-cards">
+			<li class="card">
+				<a href="#">
+					<img src="./images/icons/paid_services.svg" alt="Платные услуги">
+					<h2 class="card__title">Платные услуги</h2>
+					<p class="card__description">
+						сантехнические и&nbsp;электромонтажные работы
+					</p>
+				</a>
+			</li>
+			<li class="card">
+				<a href="#">
+					<img src="./images/icons/pay_online.svg" alt="Оплата счетов за ЖКУ онлайн">
+					<h2 class="card__title">Оплата счетов за&nbsp;ЖКУ онлайн</h2>
+					<p class="card__description">
+						без&nbsp;регистрации и&nbsp;комиссии
+					</p>
+				</a>
+			</li>
+			<li class="card">
+				<a href="#">
+					<img src="./images/icons/counter.svg" alt="Ввод показаний">
+					<h2 class="card__title">Ввод показаний</h2>
+					<p class="card__description">
+						индивидуальных приборов учета
+					</p>
+				</a>
+			</li>
+			<li class="card">
+				<a href="#">
+					<img src="./images/icons/info.svg" alt="Полезная информация">
+					<h2 class="card__title">Полезная информация</h2>
+					<p class="card__description">
+						информация для жителей
+					</p>
+				</a>
+			</li>
+		</ul>
+	</main>
+
+	<footer class="footer">
+		 <div class="footer__column">
+			 <h2 class="footer__column-title phones">
+				Телефоны
+			 </h2>
+			 <ul class="footer__column-info-list">
+				 <li class="footer__column-info-list-item">
+					<p>Единая информационно-диспетчерская <br> служба (круглосуточно)</p>
+					<ul>
+						<li>
+							<a href="tel:082">082</a>
+						</li>
+					</ul>
+				</li>
+				 <li class="footer__column-info-list-item">
+					<p>Аварийно-диспетчерская <br> служба (круглосуточно)</p>
+					<ul>
+						<li>
+							<a href="tel:+78123088801">308-88-01</a>
+						</li>
+						<li>
+							<a href="tel:+78123088802">308-88-02</a>
+						</li>
+					</ul>
+				 </li>
+				 <li class="footer__column-info-list-item">
+					<p>Секретарь (пн-пт, с&nbsp;9&nbsp;до&nbsp;18)</p>
+					<ul>
+						<li>
+							<a href="tel:+78124470942">447-09-42</a>
+						</li>
+					</ul>
+				 </li>
+				 <li class="footer__column-info-list-item">
+					<a class="footer__column-link" href="#">
+						Телефоны отделов, режим работы <br> и&nbsp;часы приема граждан
+					 </a>
+				 </li>
+			 </ul>
+		 </div>
+		 <div class="footer__column">
+			<h2 class="footer__column-title address">
+				Адрес основного офиса
+			</h2>
+			<ul class="footer__column-info-list">
+				<li class="footer__column-info-list-item">
+					<p>
+						193315, Санкт-Петербург, <br> ул.&nbsp;Народная, д.&nbsp;47, корп.&nbsp;4
+					</p>
+				</li>
+		</div>
+		<div class="footer__column">
+			<h2 class="footer__column-title feedback">
+				Обратная связь
+			</h2>
+			<ul class="footer__column-info-list">
+				<li class="footer__column-info-list-item">
+					<p>
+						У&nbsp;Вас есть вопросы? <br>
+						Напишите нам на&nbsp;электронную почту или&nbsp;воспользуйтесь Интернет-приемной:
+					</p>
+				</li>
+			</ul>
+			<a class="footer__column-email" href="mailto:4470942@gks1nev.ru">4470942@gks1nev.ru</a>
+			<ul class="footer__column-buttons">
+				<li>
+					<a class="email" href="#">
+						Интернет-приемная
+					</a>
+				</li>
+				<li>
+					<a class="schedule" href="#">
+						Запись на&nbsp;прием
+					</a>
+				</li>
+				<li>
+					<a class="vk" href="#">
+						Мы ВКонтакте
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="./main-ac435b39.js"></script>
+</body>
+</html>
