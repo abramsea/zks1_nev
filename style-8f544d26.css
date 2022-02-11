@@ -1970,7 +1970,7 @@ select {
   right: calc(100% - 12px);
 }
 .markup ul li::before {
-  top: 8px;
+  top: 4px;
   width: 6px;
   height: 6px;
   content: "";
